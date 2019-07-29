@@ -2,28 +2,37 @@
   padding: 7px 0 8px 0
   &-block
     display: flex
+    min-height: 90px
     justify-content: space-between
     align-items: center
   &__info
     display: flex
     align-items: center
     text-align: right
+    margin-top: 24px
+    margin-bottom: 24px
+    
+    
   &__address
     display: flex
     flex-direction: column  
   &__button
+
     margin-left: 30px
   &__phone 
     display: inline-block
     color: $text-color
+    font-family: "Museo Sans Cyrl 700"
     font-size: 20px
-    font-weight: 400
+    font-weight: bolder
     text-decoration: none
-    margin-top: 9px
+    
   &__address
     color: $text-color
+    font-family: "Museo Sans Cyrl 300"
     font-size: 13px
-    font-weight: 400
+    font-weight: bolder
+    margin-bottom: 8px
 @media (max-width: 760px)
   .navbar
     &__contacts
@@ -33,4 +42,23 @@
       padding: 15px 26px
     &__logo
       width: 96px
+@media (max-width: 567px)
+  .navbar
+    &__logo
+      width: 91px
+      margin-left: 20px
+    &__button 
+      font-size: 10px
+      margin-right: 20px
+      border-radius: 5px;
+      font-family: "Museo Sans Cyrl 700"
+      font-weight: 400
+      padding: 15px 26px 14px 26px
+   
+
+
+  
+    
+   
+
 
