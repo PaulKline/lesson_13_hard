@@ -124,7 +124,8 @@ img {
 @media (max-width: 567px) {
   .navbar__logo {
     width: 91px;
-    margin-left: 20px;
+    margin-left: 23px;
+    margin-top: 4px;
   }
   .navbar__button {
     font-size: 10px;
